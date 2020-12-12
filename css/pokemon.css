@@ -1,0 +1,110 @@
+
+body{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../img/backgroundpage.jpg");
+    background-size: 100%;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    perspective: 1000px;
+}
+.title{
+    text-align: center;
+    padding: 16px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+
+.card1,.card2{
+    background-size: 100%;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    
+}
+
+.card1:focus,.card2:focus{
+    -webkit-box-shadow: 0px 0px 10px 0px  rgba(0, 255, 64, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 255, 64, 0.75);
+    box-shadow:0px 5px 5px 5px rgba(0, 255, 64, 0.75);
+    background: #33ff001e;
+}
+/* .card:hover{
+    transform: rotate(0);
+    
+    background: #d9ff00;
+} */
+
+.abilities{
+    border-radius: 5px;
+    transition: all 0.75s ease-out;
+    background-color: #b9b9b996;
+    padding: 16px;
+}
+.hp{
+    position: absolute;
+}
+.vs{
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+}
+.img-pokemon{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.img-pokemon img{
+    transition: all 0.75s ease-out;
+    width: 100%;
+}
+
+.button{
+    background-color: #8d0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #ff0000;
+}
+
+.name-pokemon{
+    border-left: 4px solid #444;
+    border-bottom: 4px solid #444;
+    width: auto;
+}
+
+.audio{
+    opacity: .5;
+    margin-top: 3em;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.75s ease-out;
+    outline:none;
+    outline-width: 0;
+}
+.audio:hover{
+    
+    opacity: 1;
+}
+
