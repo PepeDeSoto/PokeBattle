@@ -1,5 +1,7 @@
 # PokeBattle
 
+Proyecto No acabado.
+
 Proyecto personal realizado gracias a la Api de Pokemon.
 
 ## En que consiste el proyecto
